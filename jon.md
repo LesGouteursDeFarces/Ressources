@@ -11,6 +11,13 @@ Programme Java :
   - Prend une adresse HTTP ou fichier en paramètre de l'application  
   - Télécharge la page Web  
   - Parse la page web à la recherche des élements  
+    - Nom
+    - Style (transformer sous forme d'id )
+    - ABV
+    - Origine
+    - Note général
+    - Note de style
+    - Brasserie
   - Production sur la sortie standard d'une requète SQL d'insertion  
   
 Regarde le code Java si tu veux mettre des morceau de code. Il se trouve ici dans Ressource.  
