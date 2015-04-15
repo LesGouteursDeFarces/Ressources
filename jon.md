@@ -4,7 +4,7 @@ Annalyse des URL de Rate Beer
 Forme trouvée : `http://ratebeer.com/beer/_textquelconque_/_idbiere_/`
   
 Programme C++ : 
-  - Compteur de 0 à n (ou n assez grand +30.000)  
+  - Compteur de 0 à n (ou n assez grand +50.000)  
   - Faisant appel au programme Java  
   
 Programme Java :  
@@ -14,3 +14,6 @@ Programme Java :
   - Production sur la sortie standard d'une requète SQL d'insertion  
   
 Regarde le code Java si tu veux mettre des morceau de code. Il se trouve ici dans Ressource.  
+
+Nombre d'enregistrement recupéré : 28.257 après nettoyage des entrées inutilisable  
+Temps pour faire cette récup ~24h
