@@ -4,12 +4,14 @@ import Parser.Parser;
 
 import java.io.File;
 import java.io.IOException;
+import java.security.MessageDigest;
+import java.security.NoSuchAlgorithmException;
 
 /**
  * Created by legeek on 18/02/15.
  */
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) throws IOException, NoSuchAlgorithmException {
         if( args.length != 1){
             System.err.println( "Usage : http/https or file" );
             System.exit( 1 );
